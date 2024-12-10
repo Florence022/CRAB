@@ -1,2 +1,30 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings for text files
 * text=auto
+
+# Normalize specific text-based files
+*.html text
+*.css text
+*.js text
+*.json text
+*.md text
+*.xml text
+
+# Treat binary files properly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.pdf binary
+
+# Prevent merge conflicts for lock files
+package-lock.json merge=ours
+yarn.lock merge=ours
+
+# Ignore temporary files in archives
+*.log export-ignore
+*.tmp export-ignore
+node_modules/ export-ignore
+
+# Set executable permissions for scripts (if applicable)
+*.sh text eol=lf executable
