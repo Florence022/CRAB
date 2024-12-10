@@ -6,6 +6,7 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background-color: #f9a825;
     padding: 10px;
@@ -28,7 +29,7 @@ header nav a {
 /* Hero section */
 .hero {
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px;
     background: linear-gradient(to bottom, #ffecb3, #e0f7fa);
 }
 
@@ -71,6 +72,7 @@ header nav a {
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
+    background-color: #f4f4f4;
 }
 
 .product-card {
@@ -116,6 +118,41 @@ header nav a {
 
 .product-card button:hover {
     background-color: #0277bd;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 20px;
+    background-color: #e0f7fa;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.contact-section a {
+    color: #039be5;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
