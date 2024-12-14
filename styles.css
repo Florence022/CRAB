@@ -26,7 +26,7 @@ header nav a {
     font-weight: bold;
 }
 
-/* Hero section */
+/* Home section */
 .hero {
     text-align: center;
     padding: 40px 20px;
@@ -138,6 +138,100 @@ header nav a {
     color: #555;
 }
 
+/* Hero Section */
+.hero1 {
+    background: linear-gradient(to right, #a8d8ea, #f9f9f9);
+    padding: 50px 20px;
+    border-bottom: 5px solid #ff9900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero1 h4{
+    font-size: 2.5em;
+    color: #0066cc;
+    text-align: center;
+}
+
+.hero1 img{
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.hero1 h5 {
+    font-size: 2em;
+    color: #e95d22;
+    margin: 20px 0;
+}
+
+.hero1 .cta-buttons a{
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.hero1 .cta-buttons a:hover {
+    padding: 15px 25px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f3f9ff;
+    flex-wrap: wrap;
+}
+
+.features h5{
+    font-size: 1.5em;
+}
+
+.feature-item {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item img {
+    width: 100px;
+    height: auto;
+}
+
+.feature-item h6 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #555;
+}
+
 /* Contact Section */
 .contact-section {
     padding: 40px 20px;
@@ -162,4 +256,18 @@ footer {
     padding: 10px;
     color: #fff;
     margin-top: 20px;
+}
+
+footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #039be5;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #0277bd;
 }
