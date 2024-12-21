@@ -1,273 +1,90 @@
-/* General styles */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketam Frozen Betina Bertelur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>Ketam Frozen Betina Bertelur</h1>
+            <p>Premium frozen female crabs with roe, guaranteed fresh and delicious!</p>
+        </div>
+    </header>
 
-/* Header */
-header {
-    background-color: #f9a825;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="crab.jpg" alt="Fresh crab with eggs">
+        <h2>Ketam Frozen Betina Bertelur</h2>
+        <p>Fresh, Affordable, Delicious!</p>
+        <div class="cta-buttons">
+            <a href="/order-now" class="button primary">Order Now</a>
+            <a href="https://www.facebook.com/share/JTih3iitcrbfRCWU/?mibextid=wwXIfr" class="button secondary">Facebook</a>
+        </div>
+    </section>
 
-header img {
-    height: 50px;
-}
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-items">
+            <div class="feature-item">
+                <h3>Premium Quality</h3>
+                <p>Only the freshest female crabs with roe, frozen for your convenience.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Affordable Prices</h3>
+                <p>Get premium crabs for just RM35!</p>
+            </div>
+            <div class="feature-item">
+                <h3>Guaranteed Satisfaction</h3>
+                <p>Trusted by seafood lovers all over Malaysia.</p>
+            </div>
+        </div>
+    </section>
 
-header nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
+    <!-- Product Cards Section (Vivian's part) -->
+    <section class="product-section">
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Ketam Frozen Betina Bertelur</h3>
+            <p>RM35. Fresh and delicious female crabs with roe.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="product-card">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Special Offer</h3>
+            <p>Get more for less! Discounted prices.</p>
+            <button>Order Now</button>
+        </div>
+    </section>
 
-/* Hero section */
-.hero {
-    text-align: center;
-    padding: 40px 20px;
-    background: linear-gradient(to bottom, #ffecb3, #e0f7fa);
-}
+    <!-- About Us Section (Florence's part) -->
+    <section class="about-section">
+        <h2>About Us</h2>
+        <ul>
+            <li>Premium frozen crabs with roe, direct from the sea to your kitchen.</li>
+            <li>Affordable, fresh, and delicious crabs, perfect for any seafood lover.</li>
+            <li>Fast delivery to your doorstep, ensuring maximum freshness.</li>
+        </ul>
+    </section>
 
-.hero img {
-    max-width: 200px;
-}
+    <!-- Contact Section (Florence's part) -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Reach out to us for more information.</p>
+        <a href="mailto:info@ketamfrozen.com">Email Us</a>
+        <a href="https://wa.me/60178520706" class="button whatsapp">WhatsApp Us</a>
+    </section>
 
-.hero h1 {
-    color: #d84315;
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2em;
-}
-
-.hero .buttons {
-    margin-top: 20px;
-}
-
-.hero .buttons a {
-    display: inline-block;
-    background-color: #039be5;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 5px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.hero .buttons a:hover {
-    background-color: #0277bd;
-}
-
-/* Product cards */
-.product-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    flex-wrap: wrap;
-    background-color: #f4f4f4;
-}
-
-.product-card {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-}
-
-.product-card img {
-    max-width: 100%;
-    border-bottom: 1px solid #ddd;
-}
-
-.product-card h3 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.product-card p {
-    margin: 10px;
-    color: #757575;
-}
-
-.product-card .price {
-    font-size: 1.2em;
-    color: #d84315;
-    font-weight: bold;
-}
-
-.product-card button {
-    background-color: #039be5;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    width: 100%;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.product-card button:hover {
-    background-color: #0277bd;
-}
-
-/* About Us Section */
-.about-section {
-    padding: 40px 20px;
-    background-color: #fff;
-    text-align: center;
-}
-
-.about-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.about-section li {
-    margin: 10px 0;
-    font-size: 1.1em;
-    color: #555;
-}
-
-/* Hero Section */
-.hero1 {
-    background: linear-gradient(to right, #a8d8ea, #f9f9f9);
-    padding: 50px 20px;
-    border-bottom: 5px solid #ff9900;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero1 h4{
-    font-size: 2.5em;
-    color: #0066cc;
-    text-align: center;
-}
-
-.hero1 img{
-    max-width: 200px;
-    margin-bottom: 20px;
-}
-
-.hero1 h5 {
-    font-size: 2em;
-    color: #e95d22;
-    margin: 20px 0;
-}
-
-.hero1 .cta-buttons a{
-    background-color: #0066cc;
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 15px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-}
-
-.hero1 .cta-buttons a:hover {
-    padding: 15px 25px;
-    margin: 0 5px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-/* Features Section */
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px 20px;
-    background-color: #f3f9ff;
-    flex-wrap: wrap;
-}
-
-.features h5{
-    font-size: 1.5em;
-}
-
-.feature-item {
-    background: #fff;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 300px;
-    flex: 1;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.feature-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.feature-item img {
-    width: 100px;
-    height: auto;
-}
-
-.feature-item h6 {
-    font-size: 1.5em;
-    margin: 15px 0;
-}
-
-.feature-item p {
-    font-size: 1em;
-    color: #555;
-}
-
-/* Contact Section */
-.contact-section {
-    padding: 40px 20px;
-    background-color: #e0f7fa;
-    text-align: center;
-    font-size: 1.1em;
-}
-
-.contact-section a {
-    color: #039be5;
-    text-decoration: none;
-}
-
-.contact-section a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background-color: #f9a825;
-    text-align: center;
-    padding: 10px;
-    color: #fff;
-    margin-top: 20px;
-}
-
-footer a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #039be5;
-    color: #fff;
-    border-radius: 5px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-footer a:hover{
-    background-color: #0277bd;
-}
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ketam Frozen Betina Bertelur. All Rights Reserved.</p>
+            <a href="https://wa.me/60178520706" class="button whatsapp">WhatsApp Us</a>
+        </div>
+    </footer>
+</body>
+</html>
